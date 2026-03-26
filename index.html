@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ouma Achieng Dorine | Web Developer</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #fff;
+}
+
+header {
+  background: #020617;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #38bdf8;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero img {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+  border: 3px solid #38bdf8;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: #000;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0ea5e9;
+}
+
+.section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.services, .projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Ouma Achieng Dorine</h1>
+  <p>Web Developer</p>
+  <nav>
+  <a href="#">Home</a>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+  <h2>Building modern, responsive, and user-friendly websites</h2>
+  <a href="#projects" class="btn">View My Work</a>
+  <a href="#" class="btn">Download CV</a>
+  <br>
+  <img src="images/dorine.jpg" alt="Dorine Photo">
+</section>
+
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>I am a passionate web developer skilled in HTML, CSS, and JavaScript. I enjoy building clean, responsive, and user-friendly websites that solve real-world problems.</p>
+</section>
+
+<section class="section">
+  <h2>Skills</h2>
+  <div class="services">
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">JavaScript</div>
+    <div class="card">Git & GitHub</div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Services</h2>
+  <div class="services">
+    <div class="card">Website Design</div>
+    <div class="card">Frontend Development</div>
+    <div class="card">Website Optimization</div>
+    <div class="card">Bug Fixing</div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2>My Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p>A modern personal portfolio built with HTML, CSS, and JavaScript.</p>
+      <a href="#" class="btn">View Live</a>
+    </div>
+    <div class="card">
+      <h3>Business Website</h3>
+      <p>A responsive website for a small business.</p>
+      <a href="#" class="btn">View Live</a>
+    </div>
+    <div class="card">
+      <h3>Landing Page</h3>
+      <p>High-converting landing page design.</p>
+      <a href="#" class="btn">View Live</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Me</h2>
+  <p>Email: dorineachieng682@gmail.com</p>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="5" placeholder="Your Message" required></textarea>
+    <button class="btn" type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Ouma Achieng Dorine</p>
+  <p>
+  <a href="#">GitHub</a> |
+  <a href="#">LinkedIn</a>
+</p>
+</footer>
+
+</body>
+</html>
